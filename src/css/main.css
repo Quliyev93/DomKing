@@ -1,0 +1,21 @@
+@import url("./navbar.css");
+@import url("./section1.css");
+@import url("./section2.css");
+@import url("./section3.css");
+@import url("./footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #70d6ff;
+}
+
+.active_nav {
+    border-bottom: 3.5px solid var(--main-color);
+}
