@@ -958,3 +958,31 @@
         font-family: "Averia Gruesa Libre", serif;
     }
 }
+
+
+@media only screen and (max-width:600px) {
+    .shop_se4_card {
+        width: 200px;
+        height: 400px;
+    }
+
+    .shop_se4_card_image img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .se4_card_image_content {
+        position: absolute;
+        left: -50px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+}

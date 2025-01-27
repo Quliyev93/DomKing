@@ -322,4 +322,8 @@
         font-size: 30px;
     }
 
+    .services_title p {
+        width: 400px;
+    }
+
 }

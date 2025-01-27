@@ -313,3 +313,15 @@
         margin-top: -270px;
     }
 }
+
+@media only screen and (max-width:600px) {
+    .shop_suit {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .shop_suit_container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
